@@ -33,7 +33,8 @@ module Capnp.Message (
     , Message(..)
 
     -- * Immutable messages
-    , ConstMsg
+    , ConstMsg(..)
+    , Segment(ConstSegment)
     , empty
 
     -- * Reading data from messages
